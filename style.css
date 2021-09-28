@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+   
   }
   
   body {
@@ -20,9 +21,11 @@
       body{
           font-size: 10px;
       }
-      .flotante{
-          width: 20px;
-          height: 700px;
+      .contenedor{
+          margin: 150px auto;
+      }
+      *{
+        max-height: 450px;
       }
   }
   
