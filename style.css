@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('./Img/Conjunto.jpg');
+  }
+  
+  .flotante {   
+    width: 550px;
+    height: auto;
+    background: #ffffff;
+    padding: 30;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .flotante h4 {
+    font-size: 40px;
+    margin-bottom: auto;
+    
+  }
+  
+  .flotante h5 {
+    font-family: 'calibri';
+    font-size: 17px;
+    margin-top:auto;
+    margin-left: 20px;
+    
+  }
+  .botons{
+    width: 100%;
+    background: #1fc540;
+    border-radius: 10px;
+    padding: 12px;
+    color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  img{
+      margin-left: 130px;
+      height: auto;
+      width: 300px;
+  }
+  
+  
