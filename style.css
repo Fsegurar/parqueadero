@@ -4,9 +4,13 @@
   
   body {
     background-image: url('./Img/Conjunto.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
   }
   
   .flotante {   
+    
     width: 550px;
     height: auto;
     background: #ffffff;
@@ -45,9 +49,8 @@
   }
   
   img{
-      margin-left: 130px;
+      margin-left: 50px;
       height: auto;
-      width: 300px;
+      width: 400;
   }
-  
-  
+
