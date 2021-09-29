@@ -1,49 +1,37 @@
 <html>
-    <head >
-        <meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Conjunto residencial Santa Coloma I</title>
-        <link rel="stylesheet" href="style.css" >
-    </head>
-    <body>
-        <div class="contenedor2">
-            <div class="video-wrap">
-                <video id="video" playsinline autoplay></video>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./style.css"> 
+  </head> 
+  <body>
+    <div class="contenedor">
+      <div class="container" id="QR-Code">
+        <div class="panel-body text-center">
+          <div class="well" style="position: relative;display: inline-block;">
+            <div class="camra">
+              <canvas id="webcodecam-canvas"></canvas>
             </div>
-            
-            
-            <!-- Webcam video snapshot -->
-            <!--canvas id="canvas" width="640" height="480"></canvas-->
-            <script>
-                const video = document.getElementById('video');
-
-                const constraints = {
-                    video: {
-                    width: 1280, height: 720
-                    }
-                };
-
-                // Access webcam
-                async function init() {
-                try {
-                    const stream = await navigator.mediaDevices.getUserMedia(constraints);
-                    handleSuccess(stream);
-                } catch (e) {
-                    errorMsgElement.innerHTML = `navigator.getUserMedia error:${e.toString()}`;
-                }
-                }
-
-                // Success
-                function handleSuccess(stream) {
-                window.stream = stream;
-                video.srcObject = stream;
-                }
-
-                // Load init
-                init();
-            </script>
+            <div class="corners">
+              <div class="scanner-laser laser-rightBottom" ></div>
+              <div class="scanner-laser laser-rightTop" ></div>
+              <div class="scanner-laser laser-leftBottom" ></div>
+              <div class="scanner-laser laser-leftTop" ></div>
+            </div>
+          </div>
         </div>
-    </body>
-    
+        <br/>
+        <div class="panel-selec">
+          <label class="lable">Seleccione la camara:</label>
+          <br/><br/>
+          <select class="form-control" id="camera-select"></select>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./js/qrcodelib.js"></script>
+    <script type="text/javascript" src="./js/webcodecamjs.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
 </html>

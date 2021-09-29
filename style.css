@@ -1,62 +1,134 @@
 *{
-    box-sizing: border-box;
-   
-  }
-  
-  body {
-    background-image: url('./Img/Conjunto.jpg');
-    font-size: 16px;
-    line-height: 1.375em;
-    letter-spacing: 0.203em;
-    font-style: italic;
-  }
+  box-sizing: border-box;
+ 
+}
 
-  .contenedor{
-      width: 90%;
-      max-width: 34.375em;
-      margin: 1.25em auto;
-      display: flex;
-  }
-  @media (max-width:576px){
-      body{
-          font-size: 10px;
-      }
-      .contenedor{
-          margin: 150px auto;
-      }
-      *{
-        max-height: 450px;
-      }
-  }
-  
-  .flotante {   
+body {
+  background-image: url('./Img/Conjunto.jpg');
+  font-size: 16px;
+  line-height: 1.375em;
+  letter-spacing: 0.203em;
+  font-style: italic;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 34.375em;
+    margin: 1.25em auto;
+    display: flex;
+}
+@media (max-width:576px){
+    body{
+        font-size: 10px;
+    }
+    .contenedor{
+        margin: 150px auto;
+    }
+    *{
+      max-height: 700px;
+    }
+    .panel-selec{
+      font-size: 20px;
+      line-height: 1.25rem;
+      letter-spacing: 0.0013rem;
+      font-weight: 900;
+      font-style: normal;
+    }
+    .panel-selec select{
+      font-size: 10px;
+      line-height: 0.7;
+      letter-spacing: 0.112em;
+      font-weight: 500;
+      font-style: 
+      italic;
+    }
     
-    width: 34.375em;
+}
+
+.flotante {   
+  
+  width: 34.375em;
+  height: auto;
+  background: #ffffff;
+  padding: 1.875em;
+  margin: auto;
+  margin-top: 1.875em;
+  margin-bottom: 0.625em;
+  border-radius: 1.875em;
+  font-family: 'calibri';
+  color: rgb(0, 0, 0);
+  box-shadow: 0.4375em 0.8125em 2.3125em #000;
+}
+
+.botons{
+  width: 100%;
+  background: #1fc540;
+  border-radius: 0.625em;
+  padding: 0.75em;
+  color: white;
+  margin: auto;
+  margin-bottom: 1.25em;
+  
+}
+
+img{
+    margin-left: 3.125em;
     height: auto;
-    background: #ffffff;
-    padding: 1.875em;
-    margin: auto;
-    margin-top: 1.875em;
-    margin-bottom: 0.625em;
-    border-radius: 1.875em;
-    font-family: 'calibri';
-    color: rgb(0, 0, 0);
-    box-shadow: 0.4375em 0.8125em 2.3125em #000;
-  }
+    width: 25em;
+}
+
+.scanner-laser {
+  position: absolute;
+  margin: 40px;
+  height: 30px;
+  width: 30px;
+  opacity: 1;
+}
+#webcodecam-canvas{
+width: 550px;
+height: 700px;
+}
+
+.laser-leftTop {
+  top: 50;
+  left: 50;
+  border-top: solid red 5px;
+  border-left: solid red 5px;
+}
+
+.laser-leftBottom {
+  bottom: 300;
+  left: 50;
+  border-bottom: solid red 5px;
+  border-left: solid red 5px;
+}
+
+.laser-rightTop {
+  top: 50;
+  right: 50;
+  border-top: solid red 5px;
+  border-right: solid red 5px;
+}
+
+.laser-rightBottom {
+  bottom: 300;
+  right: 50;
+  border-bottom: solid red 5px;
+  border-right: solid red 5px;
   
-  .botons{
-    width: 100%;
-    background: #1fc540;
-    border-radius: 0.625em;
-    padding: 0.75em;
-    color: white;
-    margin: auto;
-    margin-bottom: 1.25em;
-    
-  }
-  
-  img{
-      margin-left: 3.125em;
-      height: auto;
-      width: 25em;
-  }
+}
+.panel-selec{
+  font-size: 29px;
+  line-height: 1.25rem;
+  letter-spacing: 0.0013rem;
+  font-weight: 900;
+  font-style: normal;
+}
+.panel-selec select{
+  font-size: 17px;
+  line-height: 0.7;
+  letter-spacing: 0.112em;
+  font-weight: 500;
+  font-style: 
+  italic;
+}
