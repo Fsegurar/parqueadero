@@ -22,9 +22,13 @@ body {
         font-size: 10px;
     }
     .contenedor{
-        margin: 150px auto;
+        margin-top: 150px;
+        margin-right:100px
+
     }
+    
     *{
+      margin:10px;
       max-height: 700px;
     }
     .panel-selec{
@@ -42,6 +46,7 @@ body {
       font-style: 
       italic;
     }
+    
     
 }
 
@@ -91,28 +96,28 @@ height: 700px;
 
 .laser-leftTop {
   top: 50;
-  left: 50;
+  left: 100;
   border-top: solid red 5px;
   border-left: solid red 5px;
 }
 
 .laser-leftBottom {
   bottom: 300;
-  left: 50;
+  left: 100;
   border-bottom: solid red 5px;
   border-left: solid red 5px;
 }
 
 .laser-rightTop {
   top: 50;
-  right: 50;
+  right: 100;
   border-top: solid red 5px;
   border-right: solid red 5px;
 }
 
 .laser-rightBottom {
   bottom: 300;
-  right: 50;
+  right: 100;
   border-bottom: solid red 5px;
   border-right: solid red 5px;
   
