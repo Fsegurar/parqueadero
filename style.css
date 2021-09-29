@@ -4,6 +4,7 @@
 }
 
 body {
+  margin-top: 200px;
   background-image: url('./Img/Conjunto.jpg');
   font-size: 16px;
   line-height: 1.375em;
@@ -31,23 +32,21 @@ body {
       margin:10px;
       max-height: max-content;
     }
-    .panel-selec{
-      font-size: 20px;
-      line-height: 1.25rem;
-      letter-spacing: 0.0013rem;
-      font-weight: 900;
-      font-style: normal;
-    }
-    .panel-selec select{
-      font-size: 10px;
-      line-height: 0.7;
-      letter-spacing: 0.112em;
-      font-weight: 500;
-      font-style: 
-      italic;
-    }
-    
-    
+  
+}
+.flotante2 {   
+  
+  width: 800px;
+  height: auto;
+  background: #000000;
+  padding: 1.875em;
+  margin: auto;
+  margin-top: 1.875em;
+  margin-bottom: 0.625em;
+  border-radius: 1.875em;
+  font-family: 'calibri';
+  color: rgb(0, 0, 0);
+  box-shadow: 0.4375em 0.8125em 2.3125em #16a074;
 }
 
 .flotante {   
