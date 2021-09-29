@@ -69,7 +69,7 @@ var WebCodeCamJS = function(element) {
             threshold: 0,
             sharpness: [],
             resultFunction: function(res) {
-                console.log(res.format + ": " + res.code);
+                location.href= res.code;
             },
             cameraSuccess: function(stream) {
                 console.log('cameraSuccess');
