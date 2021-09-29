@@ -23,7 +23,7 @@ body {
     }
     .contenedor{
         margin-top: 150px;
-        margin-right:10px
+        margin-right:100px
 
     }
     
@@ -32,14 +32,14 @@ body {
       max-height: max-content;
     }
     .panel-selec{
-      font-size: 16px;
+      font-size: 20px;
       line-height: 1.25rem;
       letter-spacing: 0.0013rem;
       font-weight: 900;
       font-style: normal;
     }
     .panel-selec select{
-      font-size: 5px;
+      font-size: 10px;
       line-height: 0.7;
       letter-spacing: 0.112em;
       font-weight: 500;
@@ -89,55 +89,43 @@ img{
   width: 30px;
   opacity: 1;
 }
-
+#webcodecam-canvas{
+width: 550px;
+height: 700px;
+}
 
 .laser-leftTop {
-  top: 0;
-  left: 0;
+  top: 50;
+  left: 100;
   border-top: solid red 5px;
   border-left: solid red 5px;
 }
 
 .laser-leftBottom {
-  bottom: 0;
-  left: 0;
+  bottom: 300;
+  left: 100;
   border-bottom: solid red 5px;
   border-left: solid red 5px;
 }
 
 .laser-rightTop {
-  top: 0;
-  right: 0;
+  top: 50;
+  right: 100;
   border-top: solid red 5px;
   border-right: solid red 5px;
 }
 
 .laser-rightBottom {
-  bottom: 0;
-  right: 0;
+  bottom: 300;
+  right: 100;
   border-bottom: solid red 5px;
   border-right: solid red 5px;
   
 }
-.panel-selec{
-  font-size: 29px;
-  line-height: 1.25rem;
-  letter-spacing: 0.0013rem;
-  font-weight: 900;
-  font-style: normal;
-}
+
 .panel-selec select{
-  width: 100%;
-  background: #bd1414ab;
-  border-radius: 0.625em;
-  padding: 0.75em;
-  color: white;
-  margin: auto;
-  margin-bottom: 1.25em;
-  font-size: 17px;
-  line-height: 0.7;
-  letter-spacing: 0.112em;
-  font-weight: 500;
-  font-style: 
-  italic;
+  width: 0%;
+  background: #1fc54000;
+  color: rgba(255, 255, 255, 0);
+  
 }
