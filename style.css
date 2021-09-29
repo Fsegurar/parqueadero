@@ -23,23 +23,23 @@ body {
     }
     .contenedor{
         margin-top: 150px;
-        margin-right:100px
+        margin-right:10px
 
     }
     
     *{
       margin:10px;
-      max-height: 700px;
+      max-height: max-content;
     }
     .panel-selec{
-      font-size: 20px;
+      font-size: 16px;
       line-height: 1.25rem;
       letter-spacing: 0.0013rem;
       font-weight: 900;
       font-style: normal;
     }
     .panel-selec select{
-      font-size: 10px;
+      font-size: 5px;
       line-height: 0.7;
       letter-spacing: 0.112em;
       font-weight: 500;
@@ -89,35 +89,32 @@ img{
   width: 30px;
   opacity: 1;
 }
-#webcodecam-canvas{
-width: 550px;
-height: 700px;
-}
+
 
 .laser-leftTop {
-  top: 50;
-  left: 100;
+  top: 0;
+  left: 0;
   border-top: solid red 5px;
   border-left: solid red 5px;
 }
 
 .laser-leftBottom {
-  bottom: 300;
-  left: 100;
+  bottom: 0;
+  left: 0;
   border-bottom: solid red 5px;
   border-left: solid red 5px;
 }
 
 .laser-rightTop {
-  top: 50;
-  right: 100;
+  top: 0;
+  right: 0;
   border-top: solid red 5px;
   border-right: solid red 5px;
 }
 
 .laser-rightBottom {
-  bottom: 300;
-  right: 100;
+  bottom: 0;
+  right: 0;
   border-bottom: solid red 5px;
   border-right: solid red 5px;
   
@@ -130,6 +127,13 @@ height: 700px;
   font-style: normal;
 }
 .panel-selec select{
+  width: 100%;
+  background: #bd1414ab;
+  border-radius: 0.625em;
+  padding: 0.75em;
+  color: white;
+  margin: auto;
+  margin-bottom: 1.25em;
   font-size: 17px;
   line-height: 0.7;
   letter-spacing: 0.112em;
